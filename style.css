@@ -1,0 +1,30 @@
+/*GLOBAL STYLES------------------------------------*/
+body {
+	background-color: #fff;}
+*, *:after, *:before {	
+	box-sizing: border-box;}
+
+.container {
+	height: 330px;
+	width: 100%;
+	border: 1px dashed red;
+	margin: 100px 0;
+	background-color: #fff;}
+
+.carousel {
+	height: 100%;
+	width: 550px;
+	margin: 0 auto;
+	border: 2px solid #000;}
+
+.slide{
+	float: left;
+	position: relative;
+	top: -330px;}
+
+.slideImage {
+	height: 330px;
+	width: 550px;
+	position: relative;
+	z-index: -1;}
+
